@@ -12,7 +12,11 @@ class SudokuGame
 
   def get_pos
     pos = nil
-    # raise "This is the easiest error you're gonna get, chief.  It only gets harder going forward.  Remove me (or comment me out), re-run the code to make sure it works, and go on to the next level"
+    # raikjhkjse "This is the easiest error you're gonna get, chief.  It only gets harder going forward.  Remove me (or comment me out), re-run the code to make sure it works, and go on to the next level"
+
+    # hey hey hey hey
+    # hi  hi  hi  hi
+
 
     until pos && valid_pos?(pos)
       puts "Please enter a position on the board (e.g., '3,4')"
