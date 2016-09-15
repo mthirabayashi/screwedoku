@@ -1,6 +1,10 @@
 require_relative "tile"
+require 'byebug'
 
 class Board
+
+  # attr_reader :grid
+
   def self.empty_grid
     Array.new(9) do
       Array.new(9) { Tile.new(0) }
@@ -26,7 +30,9 @@ class Board
     grid[x][y]
   end
 
+
   def []=(pos, value)
+    # byebug
     x, y = pos
     tile = grid[x][y]
     tile.value = value
